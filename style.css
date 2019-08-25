@@ -1,0 +1,20 @@
+body {
+    background: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(158, 137, 137);
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+section {
+    position: center;
+}
