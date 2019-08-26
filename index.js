@@ -4,6 +4,8 @@ const webcamElement = document.getElementById('webcam');
 
 let net;
 
+
+// app function
 async function app() {
     console.log('Loading mobilenet..');
 
@@ -47,6 +49,8 @@ async function app() {
   }
 }
 
+
+// webcam function
 async function setupWebcam() {
     return new Promise((resolve, reject) => {
       const navigatorAny = navigator;
